@@ -1,0 +1,83 @@
+<!-- Author: Dalena Dang 217525064 and Alexander Truong 216967374 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rwd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ITEC 3020 Assignment 1  Online Shop</title>
+</head>
+<body>
+    <header>
+        <img src="images/itec3020_f23_logo.png" alt="Page Logo" title="ITEC 3020 F23 Online Shop Logo"/>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Contact Info</a></li>
+            <li>
+                <input type="text" placeholder="Search for items" class="search">
+                <button class="search" id="search-button"><i class="fa fa-search" style="font-size:12px"></i></button>
+                <button class="cart" id="view-cart"><i class="fa fa-shopping-cart" style="font-size:12px"></i></button>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="pho" class="food">
+            <h2>Pho</h2>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/07/1d/15/c0/pho-so-1.jpg" alt="Vietnamese Beef Pho Soup" title="Vietnamese Beef Pho Soup" height="500" style="height: auto" />
+            <details open>
+                <summary>Description:</summary>
+                <p>Pho is a popular Vietnamese soup that is typically served as a flavorful noodle dish. It is considered one of Vietnam's national dishes and has gained international popularity.</p>
+            </details>
+            <details>
+                <summary>Details:</summary>
+                <ul>
+                    <li>Broth:Pho broth is usually made from simmering beef bones and sometimes with added spices, such as star anise, cloves, and cinnamon</li>
+                    <li>Noodles:Pho is typically served with flat, rice noodles that are soft and chewy.</li>
+                    <li>Garnishes:Pho is traditionally served with a variety of fresh herbs, bean sprouts, lime wedges, sliced chili peppers, and hoisin and sriracha sauces.</li>
+                </ul>
+            </details>
+            <div class="variations">
+                <select id="type" name="type" class="options">
+                    <option value="Default">Select Protein:</option>
+                    <option value="Beef">Beef</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Vegan">Vegan</option>
+                </select>
+                <select id="size" name="size" class="options">
+                    <option value="Default">Select Size:</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <button class="cart" id="add-cart">Add to Cart</button>
+            </div>
+            <br />
+            <section class="suggested-products">
+                <h3>Suggested Items: </h3>
+                <div class="suggestions">
+                    <div id="banh-cuon" class="suggested">
+                        <a href=""><h4>Banh Cuon</h4></a>
+                        <a href=""><img src="https://www.wokandkin.com/wp-content/uploads/2021/05/Banh-Cuon-saved-for-web.png" alt="banh cuon" title="banh cuon" height="180" style="height: auto" /></a>
+                    </div>
+                    <div id="goi-cuon" class="suggested">
+                        <a href=""><h4>Goi Cuon</h4></a>
+                        <a href=""><img src="https://www.wokandkin.com/wp-content/uploads/2021/04/Vietnamese-Rice-Paper-Rolls-Close-Up-saved-for-web.png" alt="goi cuon" title="goi cuon" height="180" style="height: auto" /></a>
+                    </div>
+                    <div id="banh-xeo" class="suggested">
+                        <a href=""><h4>Banh Xeo</h4></a>
+                        <a href=""><img src="https://vietnamnomad.com/wp-content/uploads/2022/07/Banh-Xeo-A-guide-to-Vietnamese-Pancakes-Vietnamnomad.jpg" alt="banh xeo" title="banh xeo" height="100" style="height: auto" /></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; ITEC 3020 F23 ONLINE SHOP</p>
+    </footer>
+</body>
+</html>

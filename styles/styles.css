@@ -1,0 +1,128 @@
+@import url('https://fonts.cdnfonts.com/css/josefin-sans');
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
+
+* {
+    box-sizing: border-box;
+    font-size: .9rem;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+button {
+    border: 2px solid lightblue;
+}
+
+button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+/* navigation bar styles */
+nav ul {
+    padding: 0;
+    margin: 0;
+    line-height: 2rem;
+}
+
+/* Style links inside list items */
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding: 14px 25px;
+}
+
+nav li a:hover {
+    background-color: lightblue;
+}
+
+/* main product content area */
+.food {
+    background-color: white;
+    text-align: left;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+}
+
+img, details {
+    /* border: 2px solid yellow; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Expand Description and Details */
+details {
+    padding-bottom: 2rem;
+}
+
+details summary {
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+details summary:after {
+    content: '+';
+    float: right;
+}
+
+details[open] summary:after {
+    content: '-';
+    float: right;
+}
+
+summary {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.options {
+    border: 2px solid lightblue;
+}
+
+/* Recommended suggestion items */
+.variations select, #add-cart, section .suggestions {
+    width: 100%;
+}
+
+div .suggested {
+    border: 1px solid lightblue;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.25rem;
+}
+
+.suggested a {
+    color: black;
+    text-decoration: none;
+}
+
+[class*="food"] { 
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 1rem;
+    overflow-x: hidden;
+}

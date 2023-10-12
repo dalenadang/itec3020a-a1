@@ -1,0 +1,14 @@
+Name: Dalena Dang
+Email: itsddang@my.yorku.ca
+Student Number: 217525064
+
+Name: Alexander Truong
+Email: atruong1@my.yorku.ca
+Student Number: 216967374
+
+- Alexander Truong created the template of the 'index.html' file.
+- Dalena Dang created the CSS files 'styles.css' and 'rwd.css' file.
+- Dalena Dang adjusted the structure of the contents within the 'index.html' file for best styling with CSS.
+- Alexander Truong received the updated 'index.html' file and completed the html validation using the html validator (https://validator.w3.org).
+- Dalena Dang completed the CSS validation using the w3c jigsaw CSS validator (https://jigsaw.w3.org/css-validator/).
+- Dalena Dang uploaded the ITEC3020a-A1 project to GitHub for User Acceptance Testing and made any required adjustments.
